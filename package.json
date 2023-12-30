@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:assets/css",
+    "country:sass": "sass --watch ProjectsFolder/CountryGuide/sass:ProjectsFolder/CountryGuide/css"
+  },
+  "keywords": [
+    "Portfolio-Website",
+    "Rahmah",
+    "Emma",
+    "bootstrap"
+  ],
+  "author": "Rahmah ft Emma",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.26",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.60.0"
+  }
+}
